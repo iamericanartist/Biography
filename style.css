@@ -1,5 +1,15 @@
-body {
+* {
 	font-family: arial, sans-serif;
-	font: 10px;
 	background-color: #ccc; 
+	/*border:1px solid black;  Just for viewing box activities */
+  box-sizing: border-box;
+
+}
+
+.navLinks li {
+	list-style: none;
+	display: inline-block;
+	background-color: grey;
+  padding:5px;
+  margin: 2px;
 }
